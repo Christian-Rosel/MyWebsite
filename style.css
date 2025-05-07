@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: white;
+    color: black;
+}
+header {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    padding: 20px 0 0 50px;
+
+}
+header span {
+    float: right;
+    margin-right: 130px;
+}
+header span a {
+    margin: 0 20px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+a:visited {
+    color: inherit;
+}
+.main_body {
+    padding-top: 200px;
+}
+.main_body h1 {
+    font-size: 100px;
+    text-align: center;
+}
+button {
+    height: 70px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+}
+.buttons {
+    text-align: center;
+}
+.individual_button {
+    margin: 5vh 1vw 0 2vw;
+}
+button:hover {
+    background-color: darkgray;
+}
+button:active {
+    background-color: darkgray;
+    transform: translateY(1px);
+}
+/* about page */
+#para_box {
+    text-align: left;
+    height: 40%;
+    width: 30%;
+    margin-left: 20%;
+    padding: 0px 3%;
+}
+#about_title {
+    text-align: left;
+}
+#profile_img {
+    height: 400px;
+    width: 400px;
+    
+}
+hr {
+    text-align: center;
+    width: 70%;
+    height: 1px;
+    margin: 20px auto;
+}
+#about_text {
+    display: flex;
+    margin-bottom: 80px;
+}
+/* projects page */
+.rows {
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    margin-top: 5%;
+}
+.project_img {
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+}
+.project_rows {
+    margin: 0 5vw;
+}
+#project_main h1 {
+    margin-bottom: 3%;
+}
+#project_main p {
+    margin-top: 3%;
+    text-align: center;
+}
+#popup {
+    height: 60vh;
+    width: 80vw;
+    background-color: gray;
+    position: fixed;
+    top: 20%;
+    left: 10%;
+    border-radius: 10px;
+    display: none;
+}
+#popup-box {
+    height: 70%;
+    width: 70%;
+    margin: 7% 0 0 7%;
+    display: flex;
+}
+#popup img {
+    height: 30vh;
+    width: 30vh;
+    margin-right: 5%;
+}
+#popup-box p {
+    text-align: left;
+}
+#close {
+    height: 20px;
+    width: 20px;
+    float: right;
+    margin: 10px 10px 0 0;
+    border-radius: 10px;
+}
+.link {
+    height: 5%;
+    width: 15%;
+    border-radius: 5px;
+    margin-top: 5%;
+}

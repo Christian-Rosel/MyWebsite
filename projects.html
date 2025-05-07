@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Christian Rosel Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="program.js"></script>
+    </head>
+    <body>
+        <header>
+                <a href="home.html">Home</a>
+                <span>
+                    <a href="About.html"> About Me</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="projects.html"> Projects</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="https://www.linkedin.com/in/christian-rosel-358236226/"> in</a> 
+                </span>
+        </header>
+        <div class="main_body" id="project_main">
+            <div id="popup">
+                <div>
+                    <button onclick="close_it()" id="close">&#10006;</button>
+                </div>
+                <div  id="popup-box">
+                    <img src="">
+                    <div>
+                        <h3>Calculator:</h3>
+                        <p>A fully functional basic calculator that can do basic arithmetic equations</p>
+                    </div>
+                </div>
+            </div>
+            <h1>&lt;Projects&gt;</h1>
+            <hr>
+            <div class="rows" id="row1">
+                <div id="project11" class="project_rows">
+                    <img src="./img/calculator.png" class="project_img" onclick="open_it(1)">
+                    <p>Basic Calculator</p>
+                </div>
+                <div id="project12" class="project_rows">
+                    <img src="./img/movie.png" class="project_img" onclick="open_it(2)">
+                    <p>Movie Compilation</p>
+                </div>
+                <div id="project13" class="project_rows">
+                    <img src="" class="project_img" onclick="open_it(3)">
+                    <p>DND Project</p>
+                </div>
+            </div>
+            <div class="rows" id="row2">
+                
+            </div>
+        </div>
+    </body>
+</html>
