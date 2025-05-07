@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator App</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="program.js"></script>
+    </head>
+    <body>
+        <div class="calculator_box">
+            <input type="text" class="answer_box" value="" id="answer_box" maxlength="8" placeholder="0">
+            <div class="rows" id="row1">
+                <button type="button" class="number_box" onclick="addnumber('7')">7</button>
+                <button type="button" class="number_box" onclick="addnumber('8')">8</button>
+                <button type="button" class="number_box" onclick="addnumber('9')">9</button>
+                <button type="button" class="number_box" onclick="delete_num()">DEL</button>
+                <button type="button" class="number_box" onclick="delete_all()">AC</button>
+            </div>
+            <div class="rows" id="row2">
+                <button type="button" class="number_box"onclick="addnumber('4')">4</button>
+                <button type="button" class="number_box"onclick="addnumber('5')">5</button>
+                <button type="button" class="number_box"onclick="addnumber('6')">6</button>
+                <button type="button" class="number_box" onclick="operator('*')">&times;</button>
+                <button type="button" class="number_box" onclick="operator('/')">&divide;</button>
+            </div>
+            <div class="rows" id="row3">
+                <button type="button" class="number_box" onclick="addnumber('1')">1</button>
+                <button type="button" class="number_box" onclick="addnumber('2')">2</button>
+                <button type="button" class="number_box" onclick="addnumber('3')">3</button>
+                <button type="button" class="number_box" onclick="operator('+')">+</button>
+                <button type="button" class="number_box" onclick="operator('-')">&minus;</button>
+            </div>
+            <div class="rows" id="row3">
+                <button type="button" class="number_zero" onclick="addnumber('0')">0</button>
+                <button type="button" class="number_equal" onclick="equal()">=</button>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,70 @@
+html {
+    background-color: gray;
+}
+.calculator_box {
+    height: 600px;
+    width: 38%;
+    max-width: 550px;
+    text-align: center;
+    background-color: white;
+    border: solid 3px black;
+    border-radius: 10px;
+}
+.answer_box {
+    height: 15%;
+    width: 80%;
+    text-align: right;
+    color: white;
+    background-color: lightgray;
+    border: solid 3px;
+    border-radius: 10px;
+    padding-right: 10px;
+    margin: 7% 0 0 0px;
+    font-size: 40px;
+}
+#row1 {
+    margin-top: 30px;
+}
+.rows {
+    height: 100px;
+    width: 90%;
+    display: flex;
+    margin-left: 9%;
+}
+.number_box {
+    height: 90%;
+    width: 18%;
+    text-align: center;
+    justify-content: center;
+    background-color: lightgray;
+    border: solid 3px white;
+    border-radius: 10px;
+    font-size: clamp(5px, 2vw, 30px);
+}
+.number_zero {
+    width: 60%;
+    height: 90%;
+    text-align: center;
+    justify-content: center;
+    background-color: lightgray;
+    border: solid 3px white;
+    border-radius: 10px;
+    font-size: clamp(5px, 2vw, 30px);
+}
+.number_equal {
+    width: 30%;
+    height: 90%;
+    text-align: center;
+    justify-content: center;
+    background-color: lightgray;
+    border: solid 3px white;
+    border-radius: 10px;
+    font-size: clamp(5px, 2vw, 30px);
+}
+.number_zero:hover, .number_equal:hover, .number_box:hover {
+    background-color: darkgray;
+}
+.number_zero:active, .number_equal:active, .number_box:active {
+    background-color: darkgray;
+    transform: translateY(.5px);
+}
