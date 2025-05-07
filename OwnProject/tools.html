@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tools Page</title>
+        <link rel="stylesheet" href="styleDND.css">
+        <script src="program.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>
+                <a href="home.html">TCS</a>
+                <span>
+                    <a href="tools.html"> Tools</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="Heros.html"> Heroes</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="Teams.html"> Teams</a>
+                </span>
+            </h1>
+        </header>
+        <div class="title">
+            <h1>T<span>C</span>S</h1>
+            <h2>Tabletop <span>Championship</span> Series</h2>
+        </div>
+        <div class="tool_box">
+            <div id="gameMode"  class="gameBox">
+                <h1>Game Mode</h1>
+                <button id="pvp" onclick="pvp()">PVP</button>
+                <button id="campaign"onclick="campaign()">Campaign</button>
+            </div>
+            <div id="PVPbox">
+                <div id="pvpNumofChar" class="gameBox">
+                    <h1>Number of Characters</h1>
+                    <div id="pvpNumofChar_buttons" class="tools_basic_button">
+                        <button onclick="char1()">1</button>
+                        <button>2</button>
+                        <button>3</button>
+                        <button>4</button>
+                        <button>5</button>
+                    </div>
+                </div>
+                <div id="charSelection1" class="gameBox">
+                    <form id="formchar1">
+                        <h1>Choose Character</h1>
+                        <label>Name:</label><br>
+                        <input type="text" id="team1Char1"><br>
+                        <label>Health:</label><br>
+                        <input type="number" id="team1Char1HP"><br>
+                        <label>AC:</label><br>
+                        <input type="number" id="team1Char1AC"><br>
+                        <button class="team_submit" id="team11Submit" onclick="team11()">Submit</button>
+                    </form> 
+                </div>
+            </div>
+            <div id="Campaignbox">
+                <div id="cammpaignNumofTeams" class="gameBox">
+                    <h1>Number of Teams</h1>
+                    <div id="campaignNumofTeam_buttons" class="tools_basic_button">
+                        <button>2</button>
+                        <button>3</button>
+                        <button>4</button>
+                        <button>5</button>
+                        <button>6</button>
+                    </div>
+                </div>
+            </div>
+            <button id="refresh" onclick="refresh()">Refresh</button>
+        </div>
+        <!-- 
+        <div class="PVPbox" id="PVPbox">
+            <div class="pvpNumOfChar" id="pvpNumOfChar">  
+                <h1>Number of Characters</h1>
+                <button onclick="char1()">1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+            </div>
+            <div class="team" id="team_1">
+                <div class="charteam1">
+                    <div class="char1">
+                        <div id="charSelection1">
+                            <form id="formchar1">
+                                <h1>Choose Character</h1>
+                                <label>Name:</label><br>
+                                <input type="text" id="team1Char1"><br>
+                                <label>Health:</label><br>
+                                <input type="number" id="team1Char1HP"><br>
+                                <label>AC:</label><br>
+                                <input type="number" id="team1Char1AC"><br>
+                                <button class="team_submit" id="team11Submit" onclick="team11()">Submit</button>
+                            </form>
+                        </div>
+                        <div id="charChosen1">
+                            <h1 id="charChosen1Hero"></h1>
+                            <h2 id="charChosen1Hp">Health:</h2>
+                            <h2 id="charChosen1Ac">AC:</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="charteam2">
+                    <div class="char1">
+                        <h1>Choose Character</h1>
+                        <label>Name:</label><br>
+                        <input type="text" id="team2Char1"><br>
+                        <label>Health:</label><br>
+                        <input type="number" id="team2Char1HP"><br>
+                        <label>AC:</label><br>
+                        <input type="number" id="team2Char1AC"><br>
+                        <button class="team_submit" id="team21Submit" onclick="team21()">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="team" id="team_2">
+
+            </div>
+            <div class="team" id="team_3">
+
+            </div>
+            <div class="team" id="team_4">
+
+            </div>
+            <div class="team" id="team_5">
+
+            </div>
+            <div class="team" id="team_6">
+
+            </div>
+        </div>
+        <div class="campaignBox" id="campaignBox">
+            <div class="cammpaignNumofTeams" id="cammpaignNumofTeams">
+                <h1>Number of Teams</h1>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+            </div>
+        </div>
+        <button class="refresh" onclick="refresh()">Refresh</button> -->
+        
+    </body>
+</html>

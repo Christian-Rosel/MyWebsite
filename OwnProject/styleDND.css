@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: black;
+}
+header span {
+    float: right;
+    margin-right: 80px;
+}
+header {
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    padding:10px 0 0px 50px;
+}
+a {
+    text-decoration: none;
+}
+.title {
+
+    text-align: center;
+    color: white;
+    margin:80px 0 30px 0;
+}
+.title h1 {
+    font-size: 100px;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+.title h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+.title span {
+    color: yellow;
+}
+/* Home Page */
+.database {
+    border: solid 3px white;
+    border-radius: 25px;
+    text-align: center;
+    background-color: gray;
+    width: 90%;
+    height: 800px;
+    margin: 0 0 25px 5%;
+
+}
+table, tr, td {
+    border: solid 2px black;
+}
+table {
+    background-color: white;
+    border-radius: 5px;
+    width: 500px;
+    padding: 5px;
+    margin: 20px 0 0 30%;
+}
+/* End of Home Page */
+/*Tools Page*/
+.gameBox {
+    border: solid 3px white;
+    border-radius: 25px;
+    text-align: center;
+    background-color: gray;
+    width: 90%;
+    height: 400px;
+    padding-top: 50px;
+    margin: 0 0 25px 5%;
+}
+.gameBox button {
+    margin: 100px 30px 30px 30px;
+    color: white;
+    width: 30%;
+    height: 20%;
+    border-radius: 10px;
+}
+#pvp {
+    background-color: red;
+}
+#campaign {
+    background-color: blue;
+}
+.tools_basic_button button {
+    width: 70px;
+    height: 70px;
+    margin: 100px 50px 10px 10px;
+    color: black;
+    border-radius: 10px;
+}
+#PVPbox, #Campaignbox, #charSelection1 {
+    display: none;
+}
+#refresh {
+    margin: 0px 30px 30px 40%;
+    color: white;
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: green;
+    text-align: center;
+}
+/* 
+.gameBox button {
+    margin: 100px 30px 30px 30px;
+    color: white;
+    width: 30%;
+    height: 20%;
+    border-radius: 10px;
+}
+.pvp {
+    background-color: red;
+}
+.campaign {
+    background-color: blue;
+}
+.pvpNumOfChar, .cammpaignNumofTeams {
+    border: solid 3px white;
+    border-radius: 25px;
+    text-align: center;
+    background-color: gray;
+    width: 90%;
+    height: 400px;
+    padding-top: 50px;
+    margin: 0 0 25px 5%;
+    display: none;
+}
+.PVPbox button, .campaignBox button {
+    width: 70px;
+    height: 70px;
+    margin: 100px 50px 10px 10px;
+    color: black;
+    border-radius: 10px;
+}
+.team {
+    display: none;
+}
+.charteam1 {
+    border: solid 3px white;
+    border-radius: 25px;
+    text-align: center;
+    background-color: blue;
+    width: 90%;
+    height: 400px;
+    margin: 0 0 25px 5%;
+}
+.charteam2 {
+    border: solid 3px white;
+    border-radius: 25px;
+    text-align: center;
+    background-color: red;
+    width: 90%;
+    height: 400px;
+    margin: 0 0 25px 5%;
+}
+.char1 {
+    width: 25%;
+    height: 350px;
+    border: solid 3px black;
+    border-radius: 25px;
+    background-color: white;
+    margin:20px 0 0 37% ;
+}
+.char1 h1 {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+#team11Submit, #team21Submit {
+    margin: 30px 0 100px 0;
+    width: 100px;
+    height: 30px;
+}
+#charChosen1 {
+    display: none;
+}
+.refresh {
+    margin: 0px 30px 30px 40%;
+    color: white;
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: green;
+    text-align: center;
+} */
+/*End of Tools Page*/
+/*Hero Page */
+.hero_list img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.hero_row {
+    margin-left: 20px;
+    display: flex;
+}
+/*End of Hero Page */
+/* Team Page */
+#teamgroups {
+    font-family: 'Akira Expanded', sans-serif;
+    background-color: darkgray;
+    border: solid 3px white;
+    border-radius: 10px;
+    height: 400px;
+    width: 95%;
+    margin-left: 30px;
+    margin-bottom: 70px;
+}
+
+#teamgroups h2 {
+    margin:25px 0 0 400px;
+}
+#teamgroups h1 {
+    margin: 125px 0 0 400px;
+    font-weight: bold;
+    font-size: 50px;
+}
+#teamgroups img{
+    float: left;
+    margin-top: 40px;
+    height: 300px;
+    width: 300px;
+}
