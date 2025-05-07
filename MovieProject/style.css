@@ -1,0 +1,326 @@
+/* Home Page */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    min-height: 100vh;
+
+}
+header {
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    padding:10px 0 0 50px;
+}
+
+header span {
+    float: right;
+    margin-right: 80px;
+}
+.movie_titles {
+    color: white;
+    background-image: url("img/fnaf.jpg"); 
+    padding: 150px 0 0 50px;
+    height: 300px;
+}
+.movie_titles h1 {
+    font-size: 70px;
+    padding: 30px 0px;
+}
+.movie_titles h2 {
+    padding-bottom: 20px;
+}
+.movie_buttons {
+    margin: 80px 0 0 45.5%;
+}
+.movie_titles button {
+    border-radius: 50%;
+    border: none;
+    width: 25px;
+    height: 25px;
+    background-color: darkgray;
+}
+a {
+    text-decoration: none;
+}
+img{
+    height: 250px;
+    width: 250px;
+    margin: 0 50px;
+}
+.genres{
+    border: 0px;
+    color: white;
+    background-color: black;
+    height: 730px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.genres a:link {
+    color: white;
+}
+.genres a:visited {
+    color: white;
+}
+.genres a:hover {
+    color: red;
+}
+
+.genres h2 {
+    padding: 20px 0 0 0;
+    text-align: center;
+    font-size: 30px;
+}
+.genres p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.genres_row1 {
+    display: flex;
+    padding: 30px 0 0 20%;
+}
+.genres_row2 {
+    display: flex;
+    padding: 30px 0 0 20%;
+}
+.favourite {
+    display: flex;
+    height: 400px;
+    padding-top: 20px;
+}
+.favourite h5 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.favourite_img {
+    margin-left: 0px;
+}
+.favourite_3 {
+    margin-left: 30%;
+}
+.favourite_2 {
+    margin-left: 40%;
+}
+.favourite_1 {
+    margin-left: 40%;
+}
+.favourite img {
+    width: 200px;
+    height: 200px;
+    padding: 25px 0 30px 30px;
+}
+.favourite h2{
+    font-size: 15px;
+    color: black;
+}
+.favourite h1 {
+    font-size: 20px;
+}
+.favourite_button {
+    padding:70px 0 0 100px;
+}
+
+.favourite_button button {
+    font-size: 25px;
+    border-radius: 3px;
+    border: none;
+    background-color: gray;
+    height: 30px;
+    width: 30px;
+    margin: 20px 20px 0 0;
+}
+.top_six {
+    background-color: black;
+    color: white;
+}
+.top_six hr {
+    width: 90%;
+    position: relative;
+    left: 50px;
+
+}
+.top_six h1 {
+    padding: 60px 0 50px 40px;
+}
+.movies {
+    padding: 20px 300px 40px 100px;
+}
+#movie_24{
+    float: right;
+    margin-right: 85px;
+
+}
+#movie_25{
+    float: right;
+
+}
+#movie_26{
+    float: right;
+    margin-right: 70px;
+
+}
+footer {
+    background-color: gray;
+    padding: 20px 0px;
+}
+footer p, footer h3 {
+    float: right;
+    font-size: 20px;
+    margin-right: 50px;
+}
+footer h2 {
+    padding-left: 100px;
+}
+footer h3 {
+    padding-right: 250px;
+}
+#go_top{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    opacity: 0.9;
+    font-size: 40px
+}
+
+/* Home Page */
+/* Genres*/
+.container {
+    margin-top: 60px;
+    background-color: black;
+    color: white;
+    padding-bottom: 40px;
+}
+.horror_title {
+    padding: 70px 0 70px 70px;
+}
+.movie-card {
+    border: 1px solid white;
+    border-radius: 1px;
+    width: 90%;
+    height: 400px;
+    margin:0 0 70px 70px;
+
+}
+.movie-card img {
+    float: left;
+    margin: 50px 0 0 40px;
+    height: 300px;
+}
+.movie-card h3 {
+    margin: 100px 0 0 0;
+}
+.movie-card p {
+    margin: 50px 0 0 0;
+}
+.movie-card h3, .movie-card p {
+    margin-left: 400px;
+}
+/* Genres */
+/* MOVIES PAGE*/
+.movie-body {
+    background-color: black;
+}
+.Movies_content {
+    padding-top: 5%;
+    background-color: black;
+    color: white;
+}
+#movie_row, #movie_row2, #movie_row3, #movie_row4, #movie_row5, #movie_row6{
+    width: 1300px;
+    height: 400px;
+    margin:0 0 70px 70px;
+    display: flex;
+
+}
+.filters {
+    height: 100px;
+    padding-left: 50px;
+}
+#filters {
+    display: none;
+    border: solid white 1px;
+    padding: 0 30px;
+    margin-left: 30px;
+    border-radius: 1px;
+    background-color: gray;
+
+}
+.check {
+    padding: 10px 10px 10px 0;
+}
+input {
+    margin: 10px 0 10px 0;
+}
+.close {
+    width: 20px;
+    height: 20px;
+    float: right;
+    color: black;
+
+}
+#popup {
+    height: 60%;
+    width: 80%;
+    top: 20%;
+    left: 10%;
+    background-color: black;
+    position: fixed;
+    border: 1px solid white;
+    color: white;
+    display: none;
+}
+#popup img {
+    float: left;
+    margin: 60px 0 0 40px;
+    width: 200px;
+    height: 250px;
+
+}
+#popup h3 {
+    padding-top: 100px;
+    margin-left: 300px;
+}
+#popup p {
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.movies_movierow img {
+    cursor: pointer;
+}
+/*MOVIES PAGE*/
+/*Contact Page */
+
+.title {
+    text-align: center;
+    margin-top: 3%;
+    padding: 50px 0;
+    font-size: 40px;
+}
+.title, .about, .about2 {
+    background-color: black;
+    color: white;
+}
+.about, .about2 {
+    font-size: 25px;
+} 
+.about2 {
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+.about {
+    padding-left: 200px;
+    padding-bottom: 70px;
+}
+#second_list {
+    padding-left: 50px;
+}
+
+/*Contact Page */

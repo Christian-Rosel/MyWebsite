@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="program.js"></script>
+</head>
+<body class="movie-body">
+    <header>
+        <h1><a href="home.html">Codester</a>
+            <span>
+                <a href="home.html">Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="Movies.html"> Movies</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="AboutUs.html"> Contact</a>
+            </span>
+        </h1>
+    </header>
+    <div id="popup">
+        <div>
+            <button onclick="closeit()" class="close">X</button>
+        </div>
+        <div class="popup-movie" id="popup-movie">
+        </div>
+    </div>
+    <div class="Movies_content">
+        <div class="filters">
+            <button onclick="filter()">Filter</button>
+            <div id="filters">
+                <input id="check1" class="check" type="checkbox" onclick="checkUncheck1()"/> Horror
+                <input id="check2" class="check" type="checkbox" onclick="checkUncheck2()"/> Comedy
+                <input id="check3" class="check" type="checkbox" onclick="checkUncheck3()"/> Romance
+                <input id="check4" class="check" type="checkbox" onclick="checkUncheck4()"/> Science Fiction
+                <input id="check5" class="check" type="checkbox" onclick="checkUncheck5()"/> Documentary
+                <input id="check6" class="check" type="checkbox" onclick="checkUncheck6()"/> Romance
+                <input id="check7" class="check" type="checkbox" onclick="checkUncheck7()" checked/> All
+            </div>
+        </div>
+        <div class="movies_movierow" id="movies_movierow">
+            <div class="movie_row1" id="movie_row">
+                <div class="movie-11">
+                    <img src="img/us.jpg" alt="images/Us_Alt_Poster.jpg" onclick="us()">
+                </div>
+                <div class="movie-12">
+                    <img src="img/barbie.jpg" alt="Barbie" onclick="barbie()">
+                </div>
+                <div class="movie-13">
+                    <img src="img/cobweb.jpg" alt="cobweb" onclick="cobweb()">
+                </div>
+                <div class="movie-14">
+                    <img src="img/starisborn.jpg" alt="A Star is Born" onclick="starisborn()">
+                </div>
+            </div>
+            <div class="movie_row2" id="movie_row2">
+                <div class="movie-21">
+                    <img src="img/nohardfeelings.jpg" alt="No Hard Feelings" onclick="nohardfeelings()">
+                </div>
+                <div class="movie-22">
+                    <img src="img/herditary.jpg" alt="images/Hereditary_Alt_Poster.jpg" onclick="hereditary()">
+                </div>
+                <div class="movie-23">
+                    <img src="img/murdermystery.jpg" alt="Murder Mystery 2" onclick="murdermystery()">
+                </div>
+                <div class="movie-24">
+                    <img src="img/yourname.jpg" alt="Your Name" onclick="yourname()">
+                </div>
+            </div>
+            <div class="movie_row3" id="movie_row3">
+                <div class="movie-31">
+                    <img src="img/notebook.jpg" alt="The Notebook" onclick="notebook()">
+                </div>
+                <div class="movie-32">
+                    <img src="img/tedbundy.jpg" alt="Extremely Wicked, Shockingly Evil and Vile" onclick="tedbundy()">
+                </div>
+                <div class="movie-33">
+                    <img src="img/indianajones.jpg" alt="Indiana Jones and the Dial of Destiny" onclick="indianajones()">
+                </div>
+                <div class="movie-34">
+                    <img src="img/avatar.jpg" alt="Avatar: The Way of Water" onclick="avatar()">
+                </div>
+            </div>
+            <div class="movie_row4" id="movie_row4">
+                <div class="movie-41">
+                    <img src="img/starwars.jpg" alt="Star Wars: The Rise of Skywalker" onclick="starwars()">
+                </div>
+                <div class="movie-42">
+                    <img src="img/spiderman.jpg" alt="Spider-Man: Across the Spider-Verse" onclick="spiderman()">
+                </div>
+                <div class="movie-43">
+                    <img src="img/senna.jpg" alt="Senna" onclick="senna()">
+                </div>
+                <div class="movie-44">
+                    <img src="img/theequalizer.jpg" alt="The Equalizer 3" onclick="equalizer()">
+                </div>
+            </div>
+            <div class="movie_row5" id="movie_row5">
+                <div class="movie-51">
+                    <img src="img/socialnetwork.jpg" alt="The Social Network" onclick="socialnetwork()">
+                </div>
+                <div class="movie-52">
+                    <img src="img/dune.jpg" alt="Dune" onclick="dune()">
+                </div>
+            </div>
+        </div>
+    </div>
+    <button onclick="topFunction()" id="go_top" title="Go to top">^</button>
+    <footer>
+        <p>EECS 1012 - GROUP PROJECT 2023</p>
+        <h3>Database of Movies </h3>
+        <h2> Codester</h2>
+    </footer>
+</body>
+</html>

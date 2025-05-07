@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="program.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1><a href="home.html">Codester</a>
+            <span>
+                <a href="home.html">Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="Movies.html"> Movies</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="AboutUs.html"> Contact</a>
+            </span>
+        </h1>
+    </header>
+    <div class="movie_titles" id="movie_titles">
+        <h1 id="movie_title">Five Nights at Freddy's</h1>
+        <h2 id="movie_info">2023 | Horror | 1h 49m</h2>
+        <div class="movie_buttons">
+            <button onclick="movie_titles_1()">1</button>
+            <button onclick="movie_titles_2()">2</button>
+            <button onclick="movie_titles_3()">3</button>
+        </div>
+    </div>
+    <div class="genres">
+        <h2>Genres</h2>
+        <div class="genres_row1">
+            <div class="genre_11">
+                <img src="img/horror.jpg">
+                <p class="genre_1"><a href="horror.html">Horror</a></p>
+            </div>
+            <div class="genre_22">
+                <img src="img/comedy.jpg">
+                <p class="genre_2"><a href="comedy.html">Comedy</a></p>
+            </div>
+            <div class="genre_33">
+                <img src="img/romance.jpg">
+                <p class="genre_3"><a href="romance.html">Romance</a></p>
+            </div>
+        </div>
+        <div class="genres_row2">
+            <div class="genre_11">
+                <img src="img/science_fiction.jpg">
+                <p class="genre_4"><a href="scifi.html">Science Fiction</a></p>
+            </div>
+            <div class="genre_22">
+                <img src="img/documentary.jpg">
+                <p class="genre_5"><a href="documentary.html">Documentary</a></p>
+            </div>
+            <div class="genre_33">
+                <img src="img/action.jpg">
+                <p class="genre_6"><a href="action.html">Action</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="favourite">
+        <div class="favourite_img_1">
+            <img src="img/halloween1978.jpg" alt="halloween" id="favourite_img1" onclick="zoom_in(favourite_img1)"
+                ondblclick="zoom_out(favourite_img1)">
+            <div class="favourite_1">
+                <h2 id="favourite_11">1978, Horror</h2>
+                <h1 id="favourite_12">Halloween</h1>
+            </div>
+        </div>
+        <div class="favourite_img_2">
+            <img src="img/scream.jpg" alt="scream" id="favourite_img2" onclick="zoom_in(favourite_img2)"
+                ondblclick="zoom_out(favourite_img2)">
+                <div class="favourite_2">
+                    <h2 id="favourite_21">1996, Horror</h2>
+                    <h1 id="favourite_22">Scream</h1>
+                </div>
+        </div>
+        <div class="favourite_img_3">
+            <img src="img/adam.jpg" alt="Adams Family" id="favourite_img3" onclick="zoom_in(favourite_img3)"
+                ondblclick="zoom_out(favourite_img3)">
+            <div class="favourite_3">
+                    <h2 id="favourite_31">1991, Comedy</h2>
+                    <h1 id="favourite_32">The Adam's Family</h1>
+                </div>
+        </div>
+        <div class="favourite_button">
+            <h5>Fans' Favorites <br> for <br> Halloween</h5>
+            <button onclick="favourite_1()"><</button>
+            <button onclick="favourite_2()">></button>
+        </div>
+    </div>
+    <div class="top_six">
+        <h1>Top 6 this Week</h1>
+        <div class="movies" id="movie_24">
+            <P>2023</P>
+            <h2>4. Old Dads</h2>
+            <p>Comedy</p>
+        </div>
+        <div class="movies" id="movie_1">
+            <P>2023</P>
+            <h2>1. Five Nights at Freddy's</h2>
+            <p>Horror</p>
+        </div>
+        <hr>
+        <div class="movies" id="movie_25">
+            <P>2023</P>
+            <h2>5. No Hard Feelings</h2>
+            <p>Comedy</p>
+        </div>
+        <div class="movies" id="movie_1">
+            <P>2023</P>
+            <h2>2. Killer of the Flower Moon</h2>
+            <p>Drama</p>
+        </div>
+        <hr>
+        <div class="movies" id="movie_26">
+            <P>2023</P>
+            <h2>6. Talk to Me</h2>
+            <p>Horror</p>
+        </div>
+        <div class="movies" id="movie_1">
+            <P>2023</P>
+            <h2>3. Pain Hustlers</h2>
+            <p>Drama</p>
+        </div>
+
+    </div>
+    <button onclick="topFunction()" id="go_top" title="Go to top">^</button>
+    <footer>
+        <p>EECS 1012 - GROUP PROJECT 2023</p>
+        <h3>Database of Movies </h3>
+        <h2> Codester </h2>
+    </footer>
+</body>
+
+</html>
